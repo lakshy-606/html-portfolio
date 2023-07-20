@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+
+  }
+  p{
+    text-align: center;
+    margin:0px;
+  }
+  h1{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15pt;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin:9px;
+  }
+  div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  #img{
+    border: solid rgb(41, 165, 0);
+    border-width: 5px;
+    margin-top: 40px;
+    display: block;
+  }

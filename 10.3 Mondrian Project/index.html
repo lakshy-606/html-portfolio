@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    /* .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+    .container{
+      width: 748px;
+      height: 748px;
+      background-color: black;
+      display: grid;
+      grid-template-columns: 320px 419px;
+      grid-template-rows: 414px 325px;
+      gap: 9px;
+    }
+    .one{
+      background-color: #E72F24;
+    }
+    .two{
+      background-color: #F0F1EC ;
+    }
+    .three{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 296px 20px;
+      gap: 9px;
+    }
+    .threexone{
+      background-color: #F0F1EC;
+    }
+    .threextwo{
+      background-color: #F0F1EC;
+    }
+    .four{
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 351px 50px;
+      gap: 9px;
+    }
+    .col_one{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 295px 21px;
+      gap: 9px;
+    }
+    .for1{
+      background-color: #F0F1EC;
+    }
+    .for2{
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 198px 153px;
+      gap: 9px;
+    }
+    .for21{
+      background-color: #F9D01E;
+    }
+    .for22{
+      background-color: #232629;
+    }
+    .col_two{
+      display: grid;
+      grid-template-columns: 9px 50px;
+      grid-template-rows: 130px 195px;
+    }
+    .fr1{
+      grid-area:1/2/2/3 ;
+      background-color: #004592;
+      border-bottom: 19px solid black;
+    }
+    .fr2{
+      grid-area: 2/2/3/3;
+      background-color: #F0F1EC
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three">
+      <div class="threexone"></div>
+      <div class="threextwo"></div>
+    </div> 
+    <div class="four">
+      <div class="col_one">
+        <div class="for1"></div>
+        <div class="for2">
+          <div class="for21"></div>
+          <div class="for22"></div>
+        </div>
+      </div>
+      <div class="col_two">
+        <div class="fr1"></div>
+        <div class="fr2"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
